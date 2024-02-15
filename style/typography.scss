@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+:root {
+  --ff: "League Spartan", sans-serif;
+  --f-wgt-700: 700;
+  --f-wgt-500: 500;
+  --f-wgt-400: 400;
+  --f-heading: var(--f-wgt-700) clamp(2.5rem, 5vw, 3.5rem) /
+    clamp(2rem, 5vw, 3rem) var(--ff);
+  --f-heading-ltr-spc: -0.08931rem;
+  --f-body-l: var(--f-wgt-500) 1.1875rem / 1.5625rem var(--ff);
+  --f-body-l-ltr-spc: -0.03956rem;
+  --f-body-s: var(--f-wgt-400) 1.0625rem / 1.375rem var(--ff);
+  --f-body-s-ltr-spc: -0.019rem;
+}
